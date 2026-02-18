@@ -1,0 +1,25 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.oracle.cloud.hcm.mobile",
+      "sha256_cert_fingerprints": [
+        "80:2C:F0:93:FC:8E:B8:1A:30:B1:2A:6A:F2:FB:F0:F9:FB:40:66:D9:2D:D1:48:DD:79:92:72:F6:82:EB:61:F1"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target" : { 
+      "namespace": "web", 
+      "site": "https://santhu44.github.io" 
+    }
+  }
+]
